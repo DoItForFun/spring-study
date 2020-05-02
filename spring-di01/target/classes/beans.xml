@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <beans>
+        <bean id="student" class="com.di.pojo.Student" >
+            <property name="name" value="李哲" />
+            <property name="address" ref="address"/>
+            <property name="book">
+                <array>
+                    <value>三体</value>
+                    <value>审判</value>
+                    <value>java入门到精通</value>
+                </array>
+            </property>
+            <property name="hobby">
+                <list>
+                    <value>敲代码</value>
+                </list>
+            </property>
+            <property name="card">
+                <map>
+                    <entry key="身份证" value="123" />
+                    <entry key="银行卡" value="333"/>
+                </map>
+            </property>
+            <property name="games">
+                <set>
+                    <value>血源</value>
+                    <value>战神</value>
+                    <value>黑魂</value>
+                </set>
+            </property>
+            <property name="wife">
+                <null />
+            </property>
+            <property name="info">
+                <props>
+                    <prop key="学号">
+                        2223
+                    </prop>
+                    <prop key="测试">
+                        测试
+                    </prop>
+                </props>
+            </property>
+        </bean>
+        <bean id="address" class="com.di.pojo.Address"/>
+    </beans>
+</beans>
