@@ -3,17 +3,22 @@
   <component name="CompilerConfiguration">
     <option name="USE_RELEASE_OPTION" value="false" />
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-ioc03" />
-        <module name="spring-ioc02" />
+        <module name="spring-mybatis" />
         <module name="spring-ioc01" />
+        <module name="spring-aop01" />
         <module name="spring-autowired01" />
         <module name="spring-di01" />
-        <module name="spring-anno01" />
+        <module name="spring-transaction" />
+        <module name="spring-ioc02" />
+        <module name="spring-proxy01" />
         <module name="spring-autoConfig01" />
+        <module name="spring-anno01" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />

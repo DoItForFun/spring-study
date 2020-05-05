@@ -16,6 +16,10 @@
         <module>spring-autowired01</module>
         <module>spring-anno01</module>
         <module>spring-autoConfig01</module>
+        <module>spring-proxy01</module>
+        <module>spring-aop01</module>
+        <module>spring-mybatis</module>
+        <module>spring-transaction</module>
     </modules>
 
     <dependencies>
